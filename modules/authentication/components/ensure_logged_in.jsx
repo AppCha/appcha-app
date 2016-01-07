@@ -24,7 +24,7 @@ Auth_EnsureLoggedIn = React.createClass({
           return false;
         }
       })()
-
     )
   }
-});
+})
+

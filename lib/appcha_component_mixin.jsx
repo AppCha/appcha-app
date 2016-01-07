@@ -10,4 +10,7 @@ AppchaComponentMixin = {
     }
     return data
   },
+  logout() {
+    Meteor.logout();
+  }
 }
