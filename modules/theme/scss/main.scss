@@ -1,0 +1,21 @@
+@import 'bourbon.io/bourbon/bourbon';
+@import 'bourbon.io/bitters/base';
+@import 'bourbon.io/neat/neat';
+//
+@import 'variables';
+@import 'components/auth_layout';
+@import 'components/cards';
+@import 'components/error_messages';
+
+body {
+  margin: 0rem;
+  background-color: $appcha_bg_color;
+  color: #f6f6f6;
+}
+
+header{
+  height: 75px;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0,3);;
+  color: #555;
+}
