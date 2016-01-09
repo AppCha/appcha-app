@@ -1,8 +1,8 @@
 ProfileForm = React.createClass({
   getInitialState(){
     return {
-      firstName: this.props.currentUser.profile.firstName,
-      lastName: this.props.currentUser.profile.lastName
+      firstName: this.props.currentUser.profile ? this.props.currentUser.profile.firstName : '',
+      lastName: this.props.currentUser.profile ? this.props.currentUser.profile.lastName : ''
     }
   },
   render(){
